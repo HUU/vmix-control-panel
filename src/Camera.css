@@ -1,0 +1,35 @@
+.Camera {
+    width: 660px;
+    height: 480px;
+    background: url('./sheet.png') no-repeat;
+    background-size: cover;
+    display: inline-block;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    color: #fff;
+    text-align: center;
+}
+
+.Camera-grid {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.Camera-grid--cell {
+    background: rgba(21, 24, 26, 0.5);
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.Camera-grid--cell h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#bcbcbd;
+    font-weight: normal;
+}

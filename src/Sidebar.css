@@ -1,0 +1,34 @@
+.Sidebar {
+    width: 100px;
+    height: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    float: left;
+}
+
+.Sidebar-logo {
+    margin-top: 10px;
+}
+
+.Sidebar-button {
+    margin-top: auto;
+    font-family: 'Roboto';
+    color: #c0d1dd;
+    background: transparent;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px 15px 20px;
+}
+
+.Sidebar-button:hover {
+    background: #15181a;
+    color: #fff;
+}
+
+.Sidebar-button > p {
+    margin: 0;
+}

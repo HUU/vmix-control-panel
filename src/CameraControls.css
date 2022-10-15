@@ -1,0 +1,16 @@
+.CameraControls {
+    background: #15181a;
+    width: 700px;
+    height: 480px;
+    float: left;
+    border-radius: 20px 0 0 20px;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+}
+
+.CameraControls::-webkit-scrollbar {
+    display: none;
+}

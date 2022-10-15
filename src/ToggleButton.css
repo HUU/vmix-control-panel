@@ -1,0 +1,32 @@
+.ToggleButton {
+    display: block;
+    font-family: 'Roboto';
+    color: #fff;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    aspect-ratio : 1 / 1;
+    max-height: 120px;
+    margin: 0 0 20px 0;
+    font-size: 15px;
+    border: 0;
+}
+
+.ToggleButton:last-child {
+    margin-bottom: 0;
+}
+
+.ToggleButton p {
+    margin: 5px 0 0 0;
+}
+
+.ToggleButton.active {
+    background: #206576;
+    color: #affffc;
+}
+
+.ToggleButton.loading {
+    background: #474f52;
+    color: #7b8588;
+}
